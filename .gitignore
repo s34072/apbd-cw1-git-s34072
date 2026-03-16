@@ -1,1 +1,24 @@
+# macOS
 .DS_Store
+
+# IntelliJ / Rider
+.idea/
+
+# Java build files
+*.class
+*.jar
+*.war
+
+# Maven / Gradle
+target/
+build/
+
+# logs
+*.log
+
+# temp
+*.tmp
+
+# IDE
+*.iml
+out/
