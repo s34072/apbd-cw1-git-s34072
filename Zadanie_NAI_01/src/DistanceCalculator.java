@@ -29,6 +29,6 @@ public class DistanceCalculator {
             sum += value;
         }
 
-        return (double);
+        return (double) sum / values.length;
     }
 }
