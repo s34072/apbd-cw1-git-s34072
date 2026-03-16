@@ -50,7 +50,7 @@ public class DistanceCalculator {
 
     public static int CalculateMin(int[] values) {
         if (values == null || values.length == 0) {
-            throw new IllegalArgumentException("Tablica jest pusta");
+            throw new IllegalArgumentException("Input array cannot be empty");
         }
 
         int minimum = values[0];
