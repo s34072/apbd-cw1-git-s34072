@@ -16,7 +16,7 @@ Rebase natomiast przenosi commity z jednej gałęzi na koniec
 drugiej gałęzi, dzięki czemu historia pozostaje liniowa
 i nie powstaje dodatkowy merge commit.
 
-###--------------- ODPOWIEDZI NA PYTANIA ----------------
+### --------------- ODPOWIEDZI NA PYTANIA ----------------
 
 ### 1. Kiedy Git wykonuje fast-forward, a kiedy powstaje merge commit?
 
