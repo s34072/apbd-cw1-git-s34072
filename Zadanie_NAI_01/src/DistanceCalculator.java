@@ -17,4 +17,18 @@ public class DistanceCalculator {
 
         return Math.sqrt(sum);
     }
+
+    public static double CalculateAverage(int[] values) {
+        if (values == null || values.length == 0) {
+            return 0;
+        }
+
+        int sum = 0;
+
+        for (int value : values) {
+            sum += value;
+        }
+
+        return (double);
+    }
 }
