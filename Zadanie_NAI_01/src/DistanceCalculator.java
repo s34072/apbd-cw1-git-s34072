@@ -53,14 +53,14 @@ public class DistanceCalculator {
             throw new IllegalArgumentException("Tablica jest pusta");
         }
 
-        int min = values[0];
+        int minimum = values[0];
 
         for (int value : values) {
-            if (value < min) {
-                min = value;
+            if (value < minimum) {
+                minimum = value;
             }
         }
 
-        return min;
+        return minimum;
     }
 }
