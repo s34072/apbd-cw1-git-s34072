@@ -31,4 +31,20 @@ public class DistanceCalculator {
 
         return (double) sum / values.length;
     }
+
+    public static int CalculateMax(int[] values) {
+        if (values == null || values.length == 0) {
+            throw new IllegalArgumentException("Tablica jest pusta");
+        }
+
+        int max = values[0];
+
+        for (int value : values) {
+            if (value > max) {
+                max = value;
+            }
+        }
+
+        return max;
+    }
 }
