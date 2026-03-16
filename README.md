@@ -8,4 +8,10 @@ W rezultacie obie gałęzie posiadały niezależne zmiany, więc Git nie
 mógł jedynie przesunąć wskaźnika gałęzi. Zamiast tego utworzył
 merge commit łączący historię obu gałęzi.
 
-Dodana implementacja feature-min
+### Porównanie merge i rebase
+
+Merge tworzy nowy commit scalający historię dwóch gałęzi,
+przez co w historii pojawia się rozgałęzienie.
+Rebase natomiast przenosi commity z jednej gałęzi na koniec
+drugiej gałęzi, dzięki czemu historia pozostaje liniowa
+i nie powstaje dodatkowy merge commit.
