@@ -7,3 +7,5 @@ na gałęzi `main` został wykonany dodatkowy commit (utworzenie README).
 W rezultacie obie gałęzie posiadały niezależne zmiany, więc Git nie
 mógł jedynie przesunąć wskaźnika gałęzi. Zamiast tego utworzył
 merge commit łączący historię obu gałęzi.
+
+Dodana implementacja feature-min
